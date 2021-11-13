@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(147, 180, 97);
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+ 
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: tan;
+    height: 100px;
+}
+
+h1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: white;
+    text-shadow:5px 5px 5px darkgreen;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li a{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav li a:hover{
+    color: purple;
+    text-shadow: 2px 2px 2px white;
+}
+
+main{
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;
+}
+
+h2{
+    text-align: center;
+}
+
+#hero{
+    width: 960px;
+    border: 3px solid black;
+    border-radius: 25px;
+    box-shadow: -15px 25px 50px green;
+}
+
+#hero:hover{
+    border: 3px solid brown;
+}
+
+p{
+    text-align: center;
+    font-size:20px;
+    margin-top: 30px;;
+}
+
+main li{
+    float: left;
+    margin-right: 30px;
+}
+
+.featImage{
+    width: 300px;
+    height: 200px;
+}
+
+main li:last-child{
+    margin-right: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: tan;
+    clear: both;
+}
+
+footer p{
+padding-top: 30px;
+}
+
+
