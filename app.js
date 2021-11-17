@@ -29,13 +29,28 @@ function hourOfDay(){
 }
 
 function sayHello(){
-    let answer = prompt("how many cats do i have?");
-    if(answer == 2){
-        alert("you are right!")
-    } else{
-        alert("You are wrong, i have 2");
+
+    // have to do something in the loop to meet the condition
+    let answer = "";
+    do{
+        answer = prompt("how many cats do i have?");
+        if(answer > 2){
+            alert("Try again");
+            alert("you are too high!")
+        } else if(answer < 2){
+            alert("Try again");
+            alert("You are too low!");
+        } else{
+            alert("You are Correct!!");
+        }
+    }while(answer != 2) // NOT equal to 2 (! = NOT "Bang")
+
+    /*
+    while(condition){
+        // do something
     }
-    console.log("Hello");
+    **/
+
 }
 
 function openText(){
@@ -45,6 +60,13 @@ function openText(){
         document.write("hello, this is some pretty cool text");
     } else if(number === 3) {
         // some other text
+    }
+}
+
+function displayStars(){
+    let number = prompt("how many stars do you give this website?");
+    for(let star = 1; star <= number; star++ ){
+        document.write('<img src="/images/star.png"/>');
     }
 }
 
