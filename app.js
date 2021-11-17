@@ -66,7 +66,7 @@ function openText(){
 function displayStars(){
     let number = prompt("how many stars do you give this website?");
     for(let star = 1; star <= number; star++ ){
-        document.write('<img src="/images/star.png"/>');
+        document.write('<img src="images/star.png"/>');
     }
 }
 
